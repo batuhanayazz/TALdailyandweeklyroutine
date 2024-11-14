@@ -1,0 +1,168 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #1f1f2e;
+  color: #eceff4;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #2e2e3a;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #5ad0ff;
+}
+
+header p {
+  font-size: 14px;
+  color: #a0a0b2;
+}
+
+.task-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.task-section h2 {
+  font-size: 20px;
+  color: #eceff4;
+  border-bottom: 2px solid #5ad0ff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  position: relative; /* Needed for dropdown positioning */
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  accent-color: #5ad0ff;
+}
+
+li:hover {
+  background-color: #373746;
+  border-radius: 5px;
+}
+
+/* Dropdown Styles */
+.dropdown-list {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+  background-color: #333;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 35px; /* Position it below the button */
+  width: 100%;
+  z-index: 10;
+}
+
+.dropdown-list li {
+  padding: 8px 15px;
+  background-color: #444;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-list li:hover {
+  background-color: #555;
+}
+
+.dropdown-btn {
+  background-color: #5ad0ff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.dropdown-btn:hover {
+  background-color: #4cb1e0;
+}
+
+.dropdown-list {
+  margin-left: 20px;
+}
+
+/* Timer Styles */
+.current-time {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 999;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2e2e2e; /* Dark gray background */
+  color: white; /* White text */
+  text-align: center; /* Center the text */
+  padding: 5px 0; /* Padding around the text */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for a modern look */
+}
+
+footer p {
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+footer a {
+  color: #5ad0ff;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,81 @@
+{
+  "daily": [
+    {
+      "name": "Check Events"
+    },
+    {
+      "name": "Guild Rewards / Guild Donates"
+    },
+    {
+      "name": "Daily Battlepass"
+    },
+    {
+      "name": "Get Dungeon Token Under 3.600"
+    },
+    {
+      "name": "Get Abyssal Token Under 15.000"
+    },
+    {
+      "name": "Check Amotoi"
+    },
+    {
+      "name": "Upgrade Cooking (If needed)"
+    },
+    {
+      "name": "Daily Buys: Contract Coin Merchant",
+      "subTasks": [
+        "Buy 5 Mystic Key",
+        "Buy Precious Blessing Pouch (If you feel lucky)",
+        "Buy Fishing Bait Chest"
+      ]
+    },
+    {
+      "name": "Daily Buys: Sundries Merchant",
+      "subTasks": ["Buy 10 Eggs", "Buy 10 Golden Rye", "Buy 5 Honey"]
+    },
+    {
+      "name": "Daily Buys: Guild Merchant",
+      "subTasks": [
+        "Buy 30 Quality Recovery Crystals",
+        "Buy 10 Rare Recovery Crystals",
+        "Buy 10 Rare Base Materials Selection Chest",
+        "Buy 3 Precious Base Materials Selection Chest",
+        "Buy 10 Rare Polished Crystals",
+        "Buy 4 Precious Polished Crystals"
+      ]
+    }
+  ],
+  "weekly": [
+    {
+      "name": "Weekly Battlepass"
+    },
+    {
+      "name": "Weekly Buys: Contract Manager (60x)",
+      "subTasks": [
+        "---PURELIGHT HILL---",
+        "On a Fragrant Hill",
+        "How to Raid Monsters",
+        "Forest Watchers",
+        "Vegetation study",
+        "---SHATTERED TEMPLE---",
+        "Shattered temple device"
+      ]
+    },
+    {
+      "name": "Weekly Buys: Contract Coin Merchant",
+      "subTasks": ["Trait Extraction Stone"]
+    },
+    {
+      "name": "Weekly Buys: Sundries Merchant",
+      "subTasks": ["Contract Scrolls"]
+    },
+    {
+      "name": "Weekly  Buys: Guild Merchant",
+      "subTasks": ["Buy 100 Trait Conversion Stones"]
+    },
+    {
+      "name": "Arena",
+      "subTasks": ["Win"]
+    }
+  ]
+}
